@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PESUDO ELEMENT</title>
+
+</head>
+<style>
+p::before { 
+  content: "Hello";
+  background-image: url("bg.webp");
+  display: block;
+  position: absolute;
+  top: 0%;
+  width: 100vw;
+  height: 100vh;
+
+  z-index: -1;
+  opacity: 0.1; /* use for background effects */
+}
+p::after{
+  content: "nice after";
+}
+input{
+  
+}
+input::-webkit-file-upload-button{
+  background: rgb(102, 99, 99);
+
+  padding: 2rem;
+  border: nome;
+  border-radius: 20px;
+  color: white;
+  width: 100%;
+}
+input{
+  font:bold 1.5rem "Gill Sans";
+  color: cornflowerblue;
+}
+input::placeholder{
+  color: rgb(251, 231, 130);
+  font:bold 1.2rem "Gill Sans";
+}
+a{
+    color: rgb(113, 92, 92);
+    text-decoration:none;
+    margin:2rem;
+    font:bold 1.5rem "gill sans";
+}
+a:hover{
+  color: aqua;
+}
+a:active{
+  color: greenyellow;
+}
+a:first-child {
+  color: crimson;
+}
+a:nth-child(11) {
+  color: crimson;
+}
+a:first-of-type{
+  color: red;
+  font-size: 3rem;
+}
+*{
+  margin: 0%;
+}
+
+</style>
+<body>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia dolorem atque voluptate? Modi hic expedita voluptatem, rerum velit odit, ea placeat ullam dolores consequatur corporis illo ratione, recusandae laudantium?
+    Quos earum distinctio natus dolore ea porro expedita. Obcaecati sapiente accusamus, nam iste doloribus quis ex iusto sequi rem laborum cumque tempora totam voluptates vero unde placeat nobis. Dignissimos, quia.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia dolorem atque voluptate? Modi hic expedita voluptatem, rerum velit odit, ea placeat ullam dolores consequatur corporis illo ratione, recusandae laudantium?
+    Quos earum distinctio natus dolore ea porro expedita. Obcaecati sapiente accusamus, nam iste doloribus quis ex iusto sequi rem laborum cumque tempora totam voluptates vero unde placeat nobis. Dignissimos, quia.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia dolorem atque voluptate? Modi hic expedita voluptatem, rerum velit odit, ea placeat ullam dolores consequatur corporis illo ratione, recusandae laudantium?
+    Quos earum distinctio natus dolore ea porro expedita. Obcaecati sapiente accusamus, nam iste doloribus quis ex iusto sequi rem laborum cumque tempora totam voluptates vero unde placeat nobis. Dignissimos, quia.
+  </p>
+  <p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quia dolorem atque voluptate? Modi hic expedita voluptatem, rerum velit odit, ea placeat ullam dolores consequatur corporis illo ratione, recusandae laudantium?
+    Quos earum distinctio natus dolore ea porro expedita. Obcaecati sapiente accusamus, nam iste doloribus quis ex iusto sequi rem laborum cumque tempora totam voluptates vero unde placeat nobis. Dignissimos, quia.
+  </p>
+
+  <input type="file">
+  <input type="text" placeholder="Enter Your Name">
+  <br>
+  <br>
+  <a href="#home">Home</a>
+  <a href="#">Contact</a>
+  <a href="#">Product</a>
+  <a href="#">About</a>
+</body>
+</html>

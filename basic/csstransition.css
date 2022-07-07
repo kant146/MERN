@@ -1,0 +1,71 @@
+body{
+  margin: 0;
+}
+.box{
+  background-color: black;
+  height: 100px;
+  width: 100px;
+  font: bold 2rem cursive; 
+  color: white;
+  margin: 2vmax;
+  /* transition-property: background-color;
+  transition-duration: 1s;
+  transition-timing-function:  ease-in-out;
+  transition-delay: 2s; 
+  transition: background-color 1s ease-in 1s,color 1s ease-out 1s;
+  
+  */
+  transition: all 1s ease-in;
+
+}
+/* .box:hover{
+  background-color: rgb(244, 86, 24);
+  color: blue;
+  /* width: 80%; */
+ /* box-shadow: 10px 10px 20px black;*/
+  /* transform: skewX(-30deg); */
+  /* transform: translate(100px); */
+  /* transform: scale(2); */
+  /* transform: rotate(90deg); */
+  /* transform: rotate(90deg) scale(2) translate(50%,50%); 
+    /* transform: scale(2) translate(50%,50%);*/
+/* } */
+ #box1{
+   /* animation-name: myanimation;
+   animation-duration: 1s;
+   animation-timing-function: ease-out;
+/*   animation-fill-mode:forwards; /* on animated state */ 
+  /* animation-iteration-count: 5; /* infinite */
+    
+   animation: myanimation 30s linear 1s infinite ;
+   /* animation: myanimation 1s linear 1s infinite alternate; */
+
+ }
+
+
+/* @keyframes myanimation{
+  from{
+    background-color:red;
+    transform: rotate(360deg);
+    
+  }
+  to{
+    background-color: greenyellow;
+    
+  }
+} */
+@keyframes myanimation{
+  0%{
+    background-color: red;
+    transform: scale(2);
+  }
+  50%{
+    background-color: blue;
+    border-radius: 100%;
+  }
+  100%{
+    background-color: rgb(249, 227, 227);
+    transform: scale(20);
+  }
+}
+

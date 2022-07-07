@@ -1,0 +1,55 @@
+*{
+  color: rgb(245, 242, 242);
+  font-size: medium;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+  text-align: justify;
+  line-height: 5vw;
+  letter-spacing: 4px;
+  word-spacing: 2px;
+  font-size: 1.8vw;
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2vmin;
+  
+  
+
+}
+h1{
+  color: rgba(97, 217, 11, 0.797);
+  text-shadow: 1px 8px 5px rgba(97, 217, 11, 0.797);
+  /* font-size: 2em;2em = parent element 2x or 2rem = root element 2x 200%  */
+  font-size: 5vw;/* 10% of height or 10% of width (view for height) or 10vmin/max for auto */
+  font-weight: 900;
+  font-size: 5vmin;
+
+}
+
+body{
+  background-color: rgb(133, 208, 208);
+  background-image: url("https://cdn.wallpapersafari.com/18/78/4zeAP1.gif");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-size: cover; */
+  /* background-position: 50% 100px; */
+  background-position: top 50px right 50% ;
+  text-transform: capitalize;
+  transition-delay: 1000ms;
+  
+  
+}
+ul{
+  list-style-position:  outside;
+  list-style-image: url('https://www.pinclipart.com/picdir/big/141-1418156_grid-clipart-hundred-block-list-view-icon-svg.png');
+  list-style:url('https://www.svgrepo.com/show/67495/rocket.svg');
+}
+.small{
+  /* border-top: 2px solid black; */
+  /* border-bottom: 2px solid black; */
+  border: 2px solid black;
+  margin: 10%;
+  padding: 20px;
+  overflow: auto;
+
+}

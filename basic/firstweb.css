@@ -1,0 +1,99 @@
+body{
+  background-image: url('bg.webp');
+  margin: 0;
+  height: 110vh;
+}
+header{
+ padding: 20px;
+ color: white;
+ position: sticky;
+ top: 0;
+}
+.logoBox{
+  transition: 0.5s;
+  display: inline-block;
+  width: 200px;
+  font-family: 'Libre Bodoni', serif;
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.logoBox:hover{
+  color: salmon;
+}
+.navbox{
+ 
+  display:inline-block;
+  position: absolute;
+  right:20px;
+  width:600px;
+}
+.navbox>a{
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-family: 'Libre Bodoni', serif;
+  transition: all 0.5s;
+}
+.navbox>a:hover{
+  color:salmon;
+}
+
+#homeid{
+  color: salmon;
+}
+
+.heading{
+  color: salmon;
+  font-size: 80px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  position: relative;
+  top: 60px;
+  left: 70px;
+  width: 500px;
+}
+.heading+h3{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  position: relative;
+  left: 80px;
+  width: 500px;
+
+}
+.heading+h3+p{
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: italic;
+  position: relative;
+  left: 70px;
+  width: 400px;
+  word-spacing: 4px;
+  top: 10px;
+}
+.heading+h3+p+button{
+  background-color:salmon;
+  font-family:'Libre Bodoni', serif;
+  position: relative;
+  left: 80px;
+  width: 150px;
+  padding: 10px;
+  border: none;
+  border: 2px solid salmon;
+  word-spacing: 4px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.heading+h3+p+button:hover{
+  background-color:black ;
+  color:white
+}
+footer{
+  color: white;
+  font-family:'Libre Bodoni', serif;
+  position: fixed;
+  bottom: 20px;
+  transition: 5.5s;
+}

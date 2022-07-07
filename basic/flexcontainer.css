@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+  color: white;
+  display: flex;
+  border: 2px solid salmon;
+  margin: 0;
+  width: 90vw;
+  height: 90vw;
+  /* justify-content: center;  //space-around  */
+  justify-content:space-evenly;
+  align-items: center; /* //stretch */
+  /* flex-direction: row-reverse;// row , columns */
+  flex-wrap:wrap; /* //nowrap */
+  align-content:  center;
+  /* flex-flow:column wrap; */
+
+
+
+}
+div{
+  width: 100px;
+  height: 100px;
+  font-size: x-large;
+  background-color: blanchedalmond;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid green;
+  
+  
+}
+/* .two{
+  align-self: flex-end;
+  // flex-shrink: 21;
+  //flex-grow:25;
+  //flex-basis: 200px;
+ // flex
+
+} */
