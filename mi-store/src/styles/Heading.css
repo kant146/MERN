@@ -1,0 +1,17 @@
+ .heading{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .heading div{
+   background-color: rgba(39,39,39,0.274);
+   height: 1px;
+   width: 30vw;
+ }
+ .heading p{
+   margin: 3vmax;
+   color: rgb(77,77,77);
+   font-size: 2vmax;
+   font-weight: 100;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
